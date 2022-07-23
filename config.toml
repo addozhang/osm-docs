@@ -1,6 +1,8 @@
 title = "Open Service Mesh"
 baseURL = "https://docs.openservicemesh.io/"
-languageCode = "en-us"
+languageCode = "zh"
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = false
 description = "Documentation for Open Service Mesh (OSM)"
 theme = "dosmy"
 RelativeURLs=true
@@ -13,21 +15,19 @@ CanonifyURLs=true
 		contentDir = 'content/en'
 		description = "Documentation for Open Service Mesh (OSM)"
 		languageName ="English"
-		weight = 1
+		weight = 2
 	[languages.zh]
 		title = "开放服务网格"
 		contentDir = 'content/zh'
 		description = "Documentation for Open Service Mesh (OSM)"
 		languageName ="中文"
-		weight = 2
+		weight = 1
 [services]
 [services.googleAnalytics]
 id = "UA-130516746-13"
 enableRobotsTXT = true
 enableGitInfo = true
 version_menu = "Releases"
-defaultContentLanguage = "zh"
-defaultContentLanguageInSubdir = false
 enableMissingTranslationPlaceholders = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
 pygmentsCodeFences = true
